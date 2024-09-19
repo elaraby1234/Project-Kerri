@@ -1,0 +1,174 @@
+@keyframes typing {
+  0% {
+    content: "Kerri Deo.|";
+  }
+  1.5% {
+    content: "Kerri De.|";
+  }
+  3% {
+    content: "Kerri D.|";
+  }
+  4.5% {
+    content: "Kerri.|";
+  }
+  6% {
+    content: "Kerr.|";
+  }
+  7.5% {
+    content: "Ker.|";
+  }
+  9% {
+    content: "Ke|";
+  }
+  10.5% {
+    content: "K|";
+  }
+  12% {
+    content: "";
+  }
+
+  13.5% {
+    content: "K.|";
+  }
+  15% {
+    content: "Ke.|";
+  }
+  16.5% {
+    content: "Ker.|";
+  }
+  18% {
+    content: "Kerr.|";
+  }
+  19.5% {
+    content: "Kerri.|";
+  }
+  21% {
+    content: "Kerri D.|";
+  }
+  22.5% {
+    content: "Kerri De.|";
+  }
+  25% {
+    content: "Kerri Deo.|";
+  }
+  26.5% {
+    content: "";
+  }
+  28% {
+    content: "Designer.|";
+  }
+  29.5% {
+    content: "Designe.|";
+  }
+  31% {
+    content: "Design.|";
+  }
+  32.5% {
+    content: "Desig.|";
+  }
+  34% {
+    content: "Desi.|";
+  }
+  35.5% {
+    content: "Des.|";
+  }
+  37% {
+    content: "De.|";
+  }
+  38.5% {
+    content: "D.|";
+  }
+  40% {
+    content: "|";
+  }
+  42% {
+    content: "D.|";
+  }
+  44% {
+    content: "De.|";
+  }
+  44% {
+    content: "Des.|";
+  }
+  46% {
+    content: "Desi.|";
+  }
+  48% {
+    content: "Desi.|";
+  }
+  50% {
+    content: "Desig.|";
+  }
+  52% {
+    content: "Design.|";
+  }
+  54% {
+    content: "Designe.|";
+  }
+  56% {
+    content: "Designer.|";
+  }
+  58% {
+    content: "";
+  }
+  60% {
+    content: "Developer.|";
+  }
+  63% {
+    content: "Develope.|";
+  }
+  66% {
+    content: "Develop.|";
+  }
+  69% {
+    content: "Develo.|";
+  }
+  72% {
+    content: "Devel.|";
+  }
+  75% {
+    content: "Deve.|";
+  }
+  79% {
+    content: "Dev.|";
+  }
+  81% {
+    content: "De.|";
+  }
+  84% {
+    content: "D.|";
+  }
+  86% {
+    content: ".|";
+  }
+  88% {
+    content: "D.|";
+  }
+  90% {
+    content: "De.|";
+  }
+  91% {
+    content: "Dev.|";
+  }
+  93% {
+    content: "Deve.|";
+  }
+  95% {
+    content: "Devel.|";
+  }
+  96% {
+    content: "Develo.|";
+  }
+  97% {
+    content: "Develop.|";
+  }
+  98% {
+    content: "Develope.|";
+  }
+  99% {
+    content: "Developer.|";
+  }
+  100% {
+    content: "";
+  }
+}

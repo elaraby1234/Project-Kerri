@@ -1,0 +1,383 @@
+/** ########### GLOBAL STYLES ########### **/
+
+:root {
+  --main-color: #e65f78;
+  --white-color: #fff;
+  --black-color: #000;
+  --btn-color: #eee;
+  --bg-light: #f8f9fa;
+  --blog-color: rgb(108, 107, 107);
+  --bg-section: #f5f5f5;
+}
+* {
+  text-transform: capitalize;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.main-color {
+  color: var(--main-color);
+}
+.bg-section {
+  background-color: var(--bg-section);
+}
+/** ########### GLOBAL STYLES ########### **/
+
+/** ########### NavBar STYLES ########### **/
+.navbar .nav-item .nav-link.active {
+  color: var(--main-color);
+  transition: color 0.3s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+  color: var(--main-color);
+}
+/** ########### NavBar STYLES ########### **/
+
+/** ########### header STYLES ########### **/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.723), rgba(0, 0, 0, 0.723)),
+    url(../images/header-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .container .download-btn {
+  border: 2px solid var(--white-color);
+  padding: 15px 40px;
+  border-radius: 50px 50px;
+}
+header .container h1::after {
+  content: "";
+  animation: typing 10s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "Kerri Deo.|";
+  }
+  1.5% {
+    content: "Kerri De.|";
+  }
+  3% {
+    content: "Kerri D.|";
+  }
+  4.5% {
+    content: "Kerri.|";
+  }
+  6% {
+    content: "Kerr.|";
+  }
+  7.5% {
+    content: "Ker.|";
+  }
+  9% {
+    content: "Ke|";
+  }
+  10.5% {
+    content: "K|";
+  }
+  12% {
+    content: "";
+  }
+
+  13.5% {
+    content: "K.|";
+  }
+  15% {
+    content: "Ke.|";
+  }
+  16.5% {
+    content: "Ker.|";
+  }
+  18% {
+    content: "Kerr.|";
+  }
+  19.5% {
+    content: "Kerri.|";
+  }
+  21% {
+    content: "Kerri D.|";
+  }
+  22.5% {
+    content: "Kerri De.|";
+  }
+  25% {
+    content: "Kerri Deo.|";
+  }
+  26.5% {
+    content: "";
+  }
+  28% {
+    content: "Designer.|";
+  }
+  29.5% {
+    content: "Designe.|";
+  }
+  31% {
+    content: "Design.|";
+  }
+  32.5% {
+    content: "Desig.|";
+  }
+  34% {
+    content: "Desi.|";
+  }
+  35.5% {
+    content: "Des.|";
+  }
+  37% {
+    content: "De.|";
+  }
+  38.5% {
+    content: "D.|";
+  }
+  40% {
+    content: "|";
+  }
+  42% {
+    content: "D.|";
+  }
+  44% {
+    content: "De.|";
+  }
+  44% {
+    content: "Des.|";
+  }
+  46% {
+    content: "Desi.|";
+  }
+  48% {
+    content: "Desi.|";
+  }
+  50% {
+    content: "Desig.|";
+  }
+  52% {
+    content: "Design.|";
+  }
+  54% {
+    content: "Designe.|";
+  }
+  56% {
+    content: "Designer.|";
+  }
+  58% {
+    content: "";
+  }
+  60% {
+    content: "Developer.|";
+  }
+  63% {
+    content: "Develope.|";
+  }
+  66% {
+    content: "Develop.|";
+  }
+  69% {
+    content: "Develo.|";
+  }
+  72% {
+    content: "Devel.|";
+  }
+  75% {
+    content: "Deve.|";
+  }
+  79% {
+    content: "Dev.|";
+  }
+  81% {
+    content: "De.|";
+  }
+  84% {
+    content: "D.|";
+  }
+  86% {
+    content: ".|";
+  }
+  88% {
+    content: "D.|";
+  }
+  90% {
+    content: "De.|";
+  }
+  91% {
+    content: "Dev.|";
+  }
+  93% {
+    content: "Deve.|";
+  }
+  95% {
+    content: "Devel.|";
+  }
+  96% {
+    content: "Develo.|";
+  }
+  97% {
+    content: "Develop.|";
+  }
+  98% {
+    content: "Develope.|";
+  }
+  99% {
+    content: "Developer.|";
+  }
+  100% {
+    content: "";
+  }
+}
+/** ########### header STYLES ########### **/
+
+/** ########### fixed STYLES ########### **/
+.setting {
+  width: 40px;
+  height: 40px;
+  background-color: #222;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.bounce-shape {
+  width: 40px;
+  height: 80px;
+  border: 2px solid var(--white-color);
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bounce-shape::after {
+  content: "";
+  width: 5px;
+  height: 10px;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/** ########### fixed STYLES ########### **/
+
+/** ########### About STYLES ########### **/
+.icon {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #d3d1d1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.icon:hover {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+/** ########### About STYLES ########### **/
+
+/** ########### Services STYLES ########### **/
+.services .container .card .card-title::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+.services .container .card:hover .card-title::after{
+    width: 60px;
+} 
+/** ########### Services STYLES ########### **/
+
+
+/** ########### freelance STYLES ########### **/
+.hire-btn{
+  background-color: var(--main-color);
+    padding: 10px 30px;
+    color: var(--white-color);
+    transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out;
+}
+.hire-btn:hover{
+    background-color: #b35062;
+    color: var(--white-color);
+}
+/** ########### freelance STYLES ########### **/
+
+
+
+/** ########### Client STYLES ########### **/
+.client .container .carousel-indicators [data-bs-target="#carouselExampleCaptions"].active {
+    width: 30px;
+    background-color: var(--main-color);
+}
+.client .container .carousel-indicators [data-bs-target="#carouselExampleCaptions"] {
+    width: 15px;
+    background-color: var(--main-color);
+
+}
+/** ########### Client STYLES ########### **/
+
+
+
+/** ########### Client STYLES ########### **/
+
+.portfolio .container .nav .nav-link.active{
+    background-color: var(--main-color) !important;
+    color: var(--white-color) !important;
+}
+.portfolio .container .nav .nav-link{
+    color: var(--black-color) !important;
+}
+.portfolio .container .picture .portfolio-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.523);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+.portfolio .container .picture:hover .portfolio-layer{
+    opacity: 1;
+}
+.portfolio-img{
+    transition: transform 0.3s ease-in-out;
+}
+.portfolio .container .picture:hover .portfolio-img{
+    transform: scale(1.1);
+}
+
+.portfolio .container .picture:hover .port-item{
+    top: 60%;
+}
+
+.portfolio .container .picture .port-item{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.3s ease-in-out;
+}
+
+/** ########### Client STYLES ########### **/
